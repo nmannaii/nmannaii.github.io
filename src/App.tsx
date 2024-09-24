@@ -6,6 +6,7 @@ import { useMousePosition } from "./hooks/useMousePosition";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   const mousePosition = useMousePosition();
@@ -38,6 +39,7 @@ function App() {
           <Projects />
           <Skills />
         </main>
+        <Footer/>
       </div>
     </>
   );
