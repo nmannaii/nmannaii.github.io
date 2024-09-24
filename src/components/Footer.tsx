@@ -24,7 +24,7 @@ export default function Footer() {
           fgColor={fgColor}
         />
       </div>
-      <h1 className="text-primary-text text-md">
+      <h1 className="text-primary-text text-xs md:text-base">
         Copyright © {new Date().getFullYear()} Najmedine Mannaii. All rights
         reserved.
       </h1>
