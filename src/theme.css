@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+:root {
+    --background-color: #F5F5F5;
+    --primary-text: #2D2D2D;
+    --secondary-text: #6E6E6E;
+    --accent-color-1: #3B82F6;
+    --accent-color-2: #FFB703;
+    --highlight: #1E40AF;
+    --success: #10B981;
+    --error: #FF0000;
+    --border: #E6E6E6;
+    --card-background: #FFFFFF;
+}
+
+[data-theme="dark"] {
+    --background-color: #0D1117;
+    --primary-text: #C9D1D9;
+    --secondary-text: #8B949E;
+    --accent-color-1: #58A6FF;
+    --accent-color-2: #1F6FEB;
+    --highlight: #3B82F6;
+    --error: #3B82F6;
+    --border: #30363D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
