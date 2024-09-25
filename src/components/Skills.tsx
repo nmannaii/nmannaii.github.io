@@ -30,7 +30,7 @@ export default function Skills() {
       <div className="flex flex-wrap gap-3 justify-center py-5">
         {skills.map((skill, index) => (
           <div
-            className="w-[100px] h-[100px] rounded-full bg-card-background/50 shadow-sm flex items-center justify-center"
+            className=" transition duration-150 ease-in-out hover:scale-110 w-[100px] h-[100px] rounded-full bg-card-background/50 shadow-sm flex items-center justify-center"
             key={index}
           >
             <i className={`icon-${skill}-outline ` + 'text-5xl text-white/50'}></i>

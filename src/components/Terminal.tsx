@@ -116,7 +116,6 @@ export default function Terminal() {
           <input
             autoComplete="off"
             className="flex-1 bg-transparent opacity-0"
-            autoFocus
             value={terminalValue}
             onFocus={() => setCursorVisible(true)}
             onBlur={() => setCursorVisible(false)}
